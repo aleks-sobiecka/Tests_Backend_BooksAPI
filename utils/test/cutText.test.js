@@ -32,6 +32,6 @@ describe('CutText', () => {
         expect(cutText('Lorem Ipsum dolor sit amet', 14)).to.equal('Lorem Ipsum...');
         expect(cutText('Lorem Ipsum dolor sit amet', 5)).to.equal('Lorem...');
         expect(cutText('Lorem Ipsum dolor sit amet', 17)).to.equal('Lorem Ipsum dolor...');
-    });
+      });
   
   });
